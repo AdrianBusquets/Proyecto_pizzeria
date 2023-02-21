@@ -1,20 +1,25 @@
-img{
+.logo{
     width: 60px;
     height: 60px;
     float: left;
     
 }
 
-div{
+
+/* div{
     display: flex;
-}
+} */
 .images{
     width: 150px;
     height: 120px;
     flex-direction: row;
     justify-content: space-around;
     text-align: center;
+    flex-wrap: nowrap;
+    background-color: grey;
 }
+
+
 
 h2{
     text-align: center;
@@ -27,6 +32,8 @@ h2{
     background-color: grey;
     opacity: 0.8;
     text-shadow: 2px;
+    flex-wrap: nowrap;
+    overflow: hidden;
 }
 
 body{
@@ -34,13 +41,16 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0;
-    height: 100vh;
+    
     
 }
 
-header{
+.header{
     text-align: center;
+    background-color: transparent!important;
+    
 }
+
 
 .menu{
     justify-content: center;
@@ -87,4 +97,9 @@ h2{
     50% {color: #be2020;} 
     75% {color: rgba(107, 105, 103, 0);} 
     100% {color: rgb(28, 28, 23);} 
+}
+
+.mi_carrusell{
+    width:250px;
+    height: 250px;
 }
