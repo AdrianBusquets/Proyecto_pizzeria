@@ -63,6 +63,11 @@ header{
     margin-bottom: 50px;
 }
 
+.colapsado{
+    display: flex;
+    justify-content: end;
+}
+
 footer{
     padding: 20px;
     box-shadow:inset 0 -3em 3em rgba(0,0,0,0.1),
@@ -102,10 +107,12 @@ h2{
 .mi_carrusell{
     width:250px;
     height: 250px;
+    
 }
 
 .carousel-item{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
